@@ -245,7 +245,7 @@
                    			</div>
                    			<div class="hp-ps-divider"></div>
                    			<div class="hp-ps-block ps-block-facility">
-								<div class="hp-ps-block-over hp-ps-block-over-purple">
+								<div class="hp-ps-block-over hp-ps-block-over-purple" id="hp-ps-block-over-purple">
 									<div class="hp-ps-block-over-text-container">
 										<div class="hp-ps-block-over-text hp-ps-block-over-text-facility">
 											<ul>
@@ -264,7 +264,7 @@
                    			</div>
                    			<div class="hp-ps-divider"></div>
                    			<div class="hp-ps-block ps-block-school">
-								<div class="hp-ps-block-over hp-ps-block-over-teal">
+								<div class="hp-ps-block-over hp-ps-block-over-teal" id="hp-ps-block-over-teal">
 									<div class="hp-ps-block-over-text-container">
 										<div class="hp-ps-block-over-text">
 											<ul>
@@ -281,7 +281,7 @@
                    			</div>
                    			<div class="hp-ps-divider"></div>
                    			<div class="hp-ps-block ps-block-early">
-								<div class="hp-ps-block-over hp-ps-block-over-blue">
+								<div class="hp-ps-block-over hp-ps-block-over-blue" id="hp-ps-block-over-blue">
 									<div class="hp-ps-block-over-text-container">
 										<div class="hp-ps-block-over-text">
 											<ul>
@@ -296,7 +296,7 @@
                    			</div>
                    			<div class="hp-ps-divider"></div>
                    			<div class="hp-ps-block ps-block-evaluations">
-								<div class="hp-ps-block-over hp-ps-block-over-brown">
+								<div class="hp-ps-block-over hp-ps-block-over-brown" id="hp-ps-block-over-brown">
 									<div class="hp-ps-block-over-text-container">
 										<div class="hp-ps-block-over-text">
 											<ul>
@@ -563,6 +563,21 @@
 		$(document).ready(function(){
 			$("#portal").modal();
 			$("#contact-msg").modal();
+			$("#hp-ps-block-over-green").click(function(){
+			  window.location = "practice_settings.html";    
+			});
+			$("#hp-ps-block-over-purple").click(function(){
+			  window.location = "practice_settings.html#facility-tab";    
+			});
+			$("#hp-ps-block-over-teal").click(function(){
+			  window.location = "practice_settings.html#school-tab";    
+			});
+			$("#hp-ps-block-over-blue").click(function(){
+			  window.location = "practice_settings.html#ei-tab";    
+			});
+			$("#hp-ps-block-over-brown").click(function(){
+			  window.location = "practice_settings.html#eval-tab";    
+			});
 		});
 	</script>
 </body>

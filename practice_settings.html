@@ -105,7 +105,7 @@
 
 	        				<div class="responsive-tabs">
 		        				<h2>Community Based</h2>
-		        				<div>
+		        				<div id="community-tab">
 		        					<div class="ps-tabcontent-left hp-ps-block-over-green"><img src="assets/images/site/hp-ps-communityimg.png">		
 										<ul>
 										<li>Adult Homecare</li>
@@ -120,7 +120,7 @@
 		        					<div class="clear"></div>
 		        				</div>
 		        				<h2>Facility Based</h2>
-		        				<div>
+		        				<div id="facility-tab">
 		        					<div class="ps-tabcontent-left hp-ps-block-over-purple"><img src="assets/images/site/hp-ps-facilityimg.png">		
 										<ul class="hp-ps-block-over-purple">
 											<li>Long Term Care</li>
@@ -137,7 +137,7 @@
 		        					<div class="clear"></div>
 		        				</div>
 		        				<h2>School Based</h2>
-		        				<div>
+		        				<div id="school-tab">
 		        					<div class="ps-tabcontent-left hp-ps-block-over-teal"><img src="assets/images/site/hp-ps-schoolimg.png">		
 										<ul>
 											<li>NYC DoE</li>
@@ -308,7 +308,7 @@
 			        				</div>
 		        				</div>
 		        				<h2>Evaluations</h2>
-		        				<div>
+		        				<div id="eval-tab">
 		        					<div class="ps-tabcontent-left"><img src="assets/images/site/hp-ps-evaluations.png">		
 										<ul class="hp-ps-block-over-brown">
 											<li>Adult</li>
@@ -452,17 +452,11 @@
 	        	</article>
 	        	<aside>
 	    			<div class="hp-midcol-block">
-	    				<div class="aside-benefits-bg"></div>
+	    				<div class="aside-benefits-bg">
+	    					<img src="assets/images/site/build_a_better_you_sidebar.png">
+	    				</div>
                    		<div class="aside-block-inner" id="benefits">
-                   			<h2>Build a Benefits Package with Therapeutic Resources</h2>
-                   			<p>Our comprehensive benefit program includes:</p>
-                   			<ul>
-                   				<li>Major medical/hospitalization</li>
-                   				<li>Dental</li>
-                   				<li>Long term disability</li>
-                   				<li>Long term care</li>
-                   				<li>401k</li>
-                   			</ul>
+                   			<h2>Build a Better You with Therapeutic Resources</h2>
                    			<a href="">Learn more »</a>
                    		</div>
 	    			</div>
@@ -514,12 +508,12 @@
 	<script>
 
 		  $(document).ready(function() {
+		  		if(document.location.hash != ''){
+		  			var activeTab = document.location.hash;
+		  			$(activeTab).addClass("responsive-tabs__panel--active");
+		  		}
 		  		RESPONSIVEUI.responsiveTabs();
-		  		$(".cancellation-link").click(function(){
-		  			$(".cancellation-policy").slideToggle();
-		  			return false;
-		  		});
-		  		$(".cancellation-link").toggle(function(){$(this).text("Hide");}, function(){$(this).text("Cancellation Policy");});
+
 		  		$("#doctor-referral-link").click(function(){
 		  			$("#doctor-referral-form-container").slideToggle();
 		  			return false;
