@@ -47,6 +47,15 @@ header{
 	font-size: 1.5em;
 	font-weight: 600;
 }
+.main article h2 {
+    color: #503260;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.main article ul{
+	font-size:0.85em;
+	margin-left:3em;
+}
 .search {
     color: #503260;
     display: inline-block;
@@ -159,10 +168,11 @@ article .job-apply-col{
 	margin: 0 auto;
 	padding: 1em 1em 1em 0;
 }
-.ps-tabcontent-left ul {
+.main article .ps-tabcontent-left ul  {
     list-style-type: none;
     text-align: center;
     margin: 0 auto;
+    font-size:1em;
 }
 .ps-tabcontent-form{
 	width: 95%;
@@ -174,7 +184,19 @@ article .job-apply-col{
 #doctor-referral-link {color:#286079; font-weight:600; text-decoration:none;}
 #doctor-referral-icon {color:#286079;}
 #reverse-recruit-success,#doctor-referral-success,#find-staff-success{display:none;}
-
+.build-right{
+	float: right;
+	display:inline-block;
+	width:45%;
+}
+.build-left{
+	float:left;
+	display:inline-block;
+	width:50%;
+}
+.build-left img{
+	max-width:100%;
+}
 
 /*------------------------ NAVIGATION ------------------------ */
 .secondary-links, .nav-secondary-phone{
@@ -1357,6 +1379,20 @@ article .job-details{
 }
 article .job-apply-col{
 	padding-left: 0;
+}
+.build-right{
+	float: none;
+	display:inline-block;
+	width:100%;
+}
+.build-left{
+	float:none;
+	display:block;
+	width:100%;
+	text-align:center;
+}
+.build-left img{
+	max-width:100%;
 }	
 }
 
@@ -1799,7 +1835,7 @@ footer{
 	float:none;
 	width: 90%;
 }
-.ps-tabcontent-left ul {
+.main article .ps-tabcontent-left ul  {
     list-style-type: none;
     text-align: center;
     margin: 0 auto;
@@ -2302,7 +2338,7 @@ button.blue-btn{
 			max-width: none;
 			text-align:center;
 		}
-		.ps-tabcontent-left ul{
+		.main article .ps-tabcontent-left ul {
 			margin: 0 auto 2em;
 			text-align:center;
 			list-style-type:none;
@@ -2311,6 +2347,20 @@ button.blue-btn{
 		.ps-tabcontent-right{
 			float:none;
 			width: 100%;
+		}
+		.build-right{
+			float: none;
+			display:inline-block;
+			width:100%;
+		}
+		.build-left{
+			float:none;
+			display:block;
+			width:100%;
+			text-align:center;
+		}
+		.build-left img{
+			max-width:100%;
 		}
 
 
