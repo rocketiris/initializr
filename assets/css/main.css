@@ -152,6 +152,8 @@ a.map-link:hover{text-decoration:underline;}
 #blog-list h2 a:hover{text-decoration: underline;}
 #blog-list p a{color: #555555; font-weight: 700; text-decoration: none; text-transform: uppercase;}
 #blog-list p a:hover{text-decoration: underline;}
+.nav-mobile a{color: #597484;; text-decoration: none;}
+
 
 /* ===============
     ALL: IE Fixes
