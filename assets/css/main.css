@@ -438,7 +438,7 @@ div#benefits{
 }
 .form-container input[type="text"], .form-container textarea, .modal_content input[type="text"], .modal_content textarea {
     border: 1px solid #CCCCCC;
-    box-shadow: 2px 2px 5px #A4A4A4 inset;
+    box-shadow: 2px 2px 2px #E1E1E1 inset;
     color: #666666;
     width: 100%;
  	font-family: "ff-meta-web-pro";
