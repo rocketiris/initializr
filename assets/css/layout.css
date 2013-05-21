@@ -143,25 +143,26 @@ article .job-apply-col{
     background-color: #f3f3f3;
 }
 .ps-tabcontent-left{
-	float:left;
-	max-width:130px;
-	width:30%;
+	display:block;
+	width:90%;
 	position:relative;
 	font-size: 0.8em;
 	text-align:center;
 	padding: 2em 1.5em 0;
 }
-.ps-tabcontent-left ul{
-	text-align:left;
-}
 .ps-tabcontent-left img{
 	padding-bottom:1em;
 }
 .ps-tabcontent-right{
-	float:right;
-	position:relative;
-	width:60%;
+	display:block;
+	width:90%;
+	margin: 0 auto;
 	padding: 1em 1em 1em 0;
+}
+.ps-tabcontent-left ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
 }
 .ps-tabcontent-form{
 	width: 95%;
@@ -1200,14 +1201,6 @@ ul.menu-l2 {
 	float:left;
 	display:block;
 	text-align:left;
-}
-.ps-tabcontent-left{
-	max-width: none;
-	width:30%;
-}
-.ps-tabcontent-right{
-	width:50%;
-	padding: 1em 1em 1em 0;
 }
 /* homepage specific */
 .hp-top{
