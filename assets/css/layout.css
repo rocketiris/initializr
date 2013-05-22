@@ -183,7 +183,7 @@ article .job-apply-col{
 }
 #doctor-referral-link {color:#286079; font-weight:600; text-decoration:none;}
 #doctor-referral-icon {color:#286079;}
-#reverse-recruit-success,#doctor-referral-success,#find-staff-success{display:none;}
+#reverse-recruit-success,#doctor-referral-success,#find-staff-success,#foreign-sponsorship-success{display:none;}
 .build-right{
 	float: right;
 	display:inline-block;
