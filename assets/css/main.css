@@ -531,6 +531,46 @@ div#benefits{
     margin-top: 0;
     padding: 0;
 }
+#upload-resume-form input[type="file"]{
+	z-index: 999;
+    line-height: 0;
+    font-size: 50px;
+    position: absolute;
+    opacity: 0;
+    filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    _cursor: hand;
+    margin: 0;
+    padding:0;
+    left:0;
+}
+.upload-btn{
+	position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    text-align:center;
+    background-color: #503260;
+    float:left;
+    display:inline;
+	font-family: "ff-meta-web-pro", "Georgia", "Times New Roman", serif;
+	font-size: 0.78em;
+	color: #ffffff;
+	padding: 0.1em 0.7em;
+	margin-left:0.5em;
+	background: -webkit-linear-gradient(top,#503260 0%,#503260);
+	background: -moz-linear-gradient(top,#503260 0%,#503260);
+	background: -o-linear-gradient(top,#503260 0%,#503260);
+	background: -ms-linear-gradient(top,#503260 0%,#503260);
+	background: linear-gradient(top,#503260 0%,#503260);
+	background: -webkit-gradient(linear, left top, left bottom, from(#503260),to(#503260));
+	border-radius: 4px;
+	border: 1px solid #2f1b3a;
+	-webkit-box-shadow: 0px 1px 4px rgba(000,000,000,0.25),inset 0px 1px 0px rgba(255,255,255,0.35);
+	box-shadow: 0px 1px 4px rgba(000,000,000,0.25),inset 0px 1px 0px rgba(255,255,255,0.35);
+	text-shadow: 0px -1px 0px rgba(000,000,000,0),0px 1px 0px rgba(255,255,255,0);
+	text-transform: uppercase;
+	background-color: #503260;
+}
 .modal_window{
 	display: none;
 	background:#fff;
