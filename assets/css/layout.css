@@ -49,7 +49,7 @@ header{
 }
 .main article h2 {
     color: #503260;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
 }
 .main article ul{
@@ -183,7 +183,7 @@ article .job-apply-col{
 }
 #doctor-referral-link {color:#286079; font-weight:600; text-decoration:none;}
 #doctor-referral-icon {color:#286079;}
-#reverse-recruit-success,#doctor-referral-success,#find-staff-success,#foreign-sponsorship-success{display:none;}
+#reverse-recruit-success,#doctor-referral-success,#find-staff-success,#foreign-sponsorship-success,#seminar-form-success,#new-grad-form-success1,#new-grad-form-success2,#signup-form-success{display:none;}
 .build-right{
 	float: right;
 	display:inline-block;
@@ -197,7 +197,8 @@ article .job-apply-col{
 .build-left img{
 	max-width:100%;
 }
-
+.form-login{width: 50%;
+margin: 0 auto;}
 /*------------------------ NAVIGATION ------------------------ */
 .secondary-links, .nav-secondary-phone{
 	display:inline-block;
@@ -2362,6 +2363,8 @@ button.blue-btn{
 		.build-left img{
 			max-width:100%;
 		}
-
+		.form-login{
+			width: 90%;
+			margin: 0 auto;}
 
 }

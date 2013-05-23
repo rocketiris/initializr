@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="assets/css/main.css">
  		<link rel="stylesheet" href="assets/css/layout.css">
 		<link rel="stylesheet" href="assets/css/helpers.css">
+		<link rel="stylesheet" href="assets/css/responsive-tabs.css">
 		<link rel="stylesheet" href="assets/css/fontello.css">
     	<link rel="stylesheet" href="assets/css/animation.css"><!--[if IE 7]>
     	<link rel="stylesheet" href="assets/css/fontello-ie7.css"><![endif]-->
@@ -46,20 +47,18 @@
                		<div class="nav-primary">
 	               		<div class="nav-primary-l1">
 	               			<ul class="menu-l1">
-	               				<li class="active">Find Jobs</li>
+	               				<li><a href="">Find Jobs</a></li>
 	               				<li><a href="">Need Staff</a></li>
-	               				<li><a href="">New Grad Center</a></li>
-	               				<li><a href="">Seminars</a></li>
+	               				<li><a href="">Student Center</a></li>
+	               				<li class="active">Seminars</li>
 	               				<li><a href="">Practice Settings</a></li>
 	               				<li><a href="">About Us</a></li>
 	               			</ul>
 						</div>
 						<div class="nav-primary-l2">               		
                				<ul class="menu-l2">
-	               				<li><a href="">Overview</a></li>
-	               				<li><a href="">Job List</a></li>
-	               				<li class="active">Foreign Sponsorship</li>
-	               				<li><a href="">Upload Resume</a></li>
+	               				<li class="active">Speak for Therapeutic Resources</li>
+	               				<li><a href="">Seminars</a></li>
                				</ul>
                			</div>
                		</div>
@@ -67,9 +66,7 @@
                <div class="clear"></div>
                </div>
                <div class="nav-primary-l2-bg">
-               			<div class="nav-primary-l2-inner">               			
-               			</div>
-               		</div>
+               </div>
         <div class="nav-mobile">
 			<ul>
 				<li class="nav-mobile-findjobs">Find Jobs</li>
@@ -80,7 +77,7 @@
 						<li>Foreign Sponsorship</li>
 					</ul>
 				<li>Need Staff</li>
-				<li>New Grad Center</li>
+				<li>Student Center</li>
 				<li>Seminars</li>
 				<li>Practice Settings</li>
 				<li>About Us</li>
@@ -105,26 +102,16 @@
         <div class="main-container block push">
         	<div class="main wrapper clearfix">
 	        	<article>
-	        		<div id="foreign_sponsorship">
-	        		<h1>Foreign Sponsorship</h1>
-	        		<hr>
-	        		<h2>Introduction</h2>
-	        		<p>Therapeutic Resources welcomes therapists eligible for foreign sponsorship to work in the United States.  We offer placements in various settings, including long term care facilities, hospitals, private schools, public schools, and pediatric and adult homecare.  We offer generous employment packages which include health and dental benefits, and continuing education courses.  As a new member to the Therapeutic Resources family, we will guide each individual therapist throughout this new experience, and help with the adjustment to a new culture and professional environment.</p>
-					<h2>H-1B Work Visa</h2>
-					<p>Therapeutic Resources offers H-1B Visa sponsorship in order for foreign Occupational and Physical Therapists and Speech Pathologists to work in the United States.  The therapist must be eligible for a license in New York State.   For Occupational Therapy, a minimum of a Bachelor’s degree in the field of Occupational Therapy is required.  For Physical Therapy, a minimum of a Master’s degree or the educational equivalent in the field of Physical Therapy is required.  For Speech Pathology, a Master’s Degree is required.  The H-1B Visa is approved for up to three years at a time, with a maximum total of six years.  Therapeutic Resources also offers EB-2 Visa and EB-3 Visa in order to obtain the green card.</p>
-					<h2>Employment-Based Immigration: Second Preference EB-2</h2>
-					<p>Therapeutic Resources offers an EB-2 Visa to therapists who are eligible for this fast track to the green card.  This option is offered while working with Therapeutic Resources under H-1B Visa.  Those who are eligible should have either a Master’s degree in the specific field of Occupational or Physical Therapy, or Speech Pathology; or a Bachelor’s degree plus five years of work experience in the specific field of Occupational or Physical Therapy, or Speech Pathology.</p> 		  
-					<h2>Employment-Based Immigration: Third Preference EB-3</h2>
-					<p>Therapeutic Resources offers an EB-3 Visa to therapists who are eligible for this green card option.   This option is offered while working with Therapeutic Resources under H-1B Visa.  Those who are eligible should meet the requirement of a minimum of a Bachelor’s degree, or a foreign equivalent.</p>  
-					<h2>International Students</h2>
-					<p>International students under F-1 visa are welcome to work with Therapeutic Resources to gain training and hands-on experience in their field.  We can employ Occupational Therapy and Physical Therapy students if they have obtained a license as an Occupational Therapy Assistant or Physical Therapy Assistant.</p>
-						<div class="form-container">
-	        				<div class="form-title">Work for Therapeutic Resources</div>
-	        				<div id="foreign-sponsorship-success">
+	        		<div id="seminar-form">
+	        			<h1>Speak for Therapeutic Resources</h1>
+	        			<hr>
+	        			<div class="form-container">
+	        				<div class="form-title">Presentation Submission</div>
+	        				<div id="seminar-form-success">
 	        					<div class="green-heading">Thank You!</div>
-	        					<p>A Placement Coordinator at Therapeutic Resources will contact you shortly.</p>
+	        					<p>Your presentation submission has been received by Therapeutic Resources and our Events Division will contact you shortly.</p>
 	        				</div>
-	        				<form id="foreign-sponsorship-form">
+	        				<form id="seminar-sub-form">
 	        					<div class="form-2col form-2col-left">
 		        					<label>First Name</label>
 		        					<input type="text" name="firstname"/>
@@ -195,66 +182,22 @@
 													</select>
 		        					<label>Zip</label>
 		        						<input type="text" name="zip" />
-		        					<label>Phone</label>
+	        					</div>
+	        					<div class="form-2col form-2col-right">
+	        							<label>Phone</label>
 		        						<input type="text" name="phone1" />
 		        					<label>Secondary Phone</label>
 		        						<input type="text" name="phone2" />
-		        						<label>US Citizen</label>
-		        							<label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox1" value="y" name="citizenship"> Yes
-										    </label>
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox2" value="n" name="citizenship"> No
-										    </label>
-										    <label class="error" style="display:none" for="citizenship">Please specify your citizenship.</label>
-										      <label>Best Time to Contact</label>
-		        							<input type="text" name="contacttime" />
-
-	        					</div>
-	        					<div class="form-2col form-2col-right">
-		        						<p><strong>Immigration Credentials</strong><br />Have you taken and passed any of the following? Check all that apply.</p>
-	        						    	<label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox1" value="OT" name="credentials"> OT
-										    </label>
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox2" value="NBCOT" name="credentials"> NBCOT Exam
-										    </label><br />
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="PT" name="credentials"> PT
-										    </label>
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="NPTE" name="credentials"> NPTE Exam
-										    </label><br />
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="FCCPT" name="credentials">FCCPT Credential Review
-										    </label>
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="SLP" name="credentials"> SLP
-										    </label><br />
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="PraxisI" name="credentials"> Praxis I
-										    </label>
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="PraxisII" name="credentials"> Praxis II
-										    </label><br />
-										   <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="TSLD" name="credentials"> TSLD
-										    </label>
-										    <label class="checkbox inline">
-										    <input type="checkbox" id="inlineCheckbox3" value="bilingual" name="credentials"> Bilingual Education
-										    </label><br /><br />
-	        						<label>Relevant Licensure and Expiration Dates</label>
-	        						<textarea rows="10" name="license"></textarea><br /><br />
-	        						<label>Other Qualifications and Skills</label>
-	        						<textarea rows="10" name="qualifications"></textarea><br /><br />
+		        						
+	        						<label>Topics You are Interested in Presenting:</label>
+	        						<textarea rows="10" name="topics"></textarea><br /><br />
 	        						<button class="green-btn pull-right">Submit</button>	
 	        					<div class="clear"></div>
 	        					</div>
-
-	        					
 	        					<div class="clear"></div>
 	        				</form>
 					</div><!--// #build -->
+					</div><!--// #seminar-form -->
 	        	</article>
 	        	<aside>
 	        		<div class="hp-midcol-block">
@@ -285,7 +228,7 @@
         </div> <!-- #main-container -->
 <div class="mobile-scroll2top-container">
 	<div class="mobile-scroll2top">
-		<i class="icon-up-circled-1"></i> Scroll to Top
+		<i class="icon-up-circled"></i> Scroll to Top
 	</div>
 </div>
 <footer class="block footer-height">
@@ -308,11 +251,11 @@
 	</div>
 </footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-		<script src="assets/js/jquery.validate.js"></script>	
+	<script src="assets/js/jquery.validate.js"></script>	
 	<script src="assets/js/main.js"></script>
 	<script>
 	 $(document).ready(function() {
-			$("#foreign-sponsorship-form").validate({
+			$("#seminar-sub-form").validate({
 		  			rules: {
 		  				firstname: "required",
 		  				lastname: "required",
@@ -323,15 +266,11 @@
 		  				city: "required",
 		  				zip: "required",
 		  				state: "required",
-		  				country: "required",
-		  				citizenship: "required",
-		  				contacttime: "required",
-		  				license: "required",
-		  				qualifications: "required"
+		  				topics: "required",
 		  			},
 		  			submitHandler: function() {
-						$("#foreign-sponsorship-form").hide();
-						$("#foreign-sponsorship-form-success").show();
+						$("#seminar-sub-form").hide();
+						$("#seminar-form-success").show();
 						return false;
 					}
 		  		});
