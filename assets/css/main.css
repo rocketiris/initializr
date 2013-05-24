@@ -133,7 +133,7 @@ a, a:visited { outline: none; color: #286079;text-decoration: none; }
 a:hover { outline: none; text-decoration: underline;}  
 a:active, a:focus { outline: none; }
 .nav-primary-l1 a{text-decoration: none; color: #286079;}
-.nav-primary-l1 a:hover{text-decoration:none; color:#286079; border-bottom:3px solid #ccc; padding-bottom: 0.23em;}
+.nav-primary-l1 a:hover{text-decoration:none; color:#286079; border-bottom:5px solid #ccc; padding-bottom: 3px;}
 .nav-primary-l2 a{text-decoration: none; color: #ccc;}
 .nav-primary-l2 a:hover{text-decoration:none; color:#fff;}
 .secondary-links a{text-decoration: none; color: #4d4d4d;}

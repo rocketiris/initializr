@@ -253,14 +253,14 @@ ul.menu-l1 li, ul.menu-l2 li{
 	padding: 0;
 } 
 ul.menu-l1 li{
-	margin-right: 0.3em;
-	padding: 0 0.5em;
+	margin-right: 1.5em;
+	padding: 0;
 }
 ul.menu-l1 li.active {
-    background-color: #493657;
-    border-radius: 3px 3px 0 0;
-    color: #FFFFFF;
-    padding: 0.5em 1em 1em;
+    border-bottom: 5px solid #493657;
+    color: #493657;
+    font-weight: 600;
+    padding-bottom:3px;
 }
 ul.menu-l1 li:last-child{
 	margin-right: 0;
@@ -269,7 +269,7 @@ ul.menu-l2 {
     color: #FFFFFF;
     display: block;
     list-style-type: none;
-    margin: 0 0 0 1.2em;
+    margin: 0 0 0 0.5em;
     max-width: none;
     padding: 0;
     text-transform: none;
@@ -907,14 +907,14 @@ a:hover.hp-job-readmore{
 	-moz-background-size: cover;  /* Firefox 3.6 */
   	background-position: center;  /* Internet Explorer 7/8 */
 }
-.hp-midcol-resume{
-	background-image: url("../images/site/hp-resume.png");
+.hp-midcol-resume {
+    background-image: url("../images/site/photo_resume.png");
 }
 .hp-midcol-student{
-	background-image: url("../images/site/student-center.png");
+	background-image: url("../images/site/photo_newgrad.png");
 }
 .hp-midcol-foreign{
-	background-image: url("../images/site/foreign-sponsorship.png");
+	background-image: url("../images/site/photo_foreign.png");
 }
 
 /*-------- HOMEPAGE SEMINARS COL -------- */
@@ -1180,21 +1180,21 @@ header{
 	float:left;
 }
 .nav-primary-l1{
-	height:30px;
+	height:35px;
 }
 .nav-primary-l1 a:hover {
-    border-bottom: 3px solid #CCCCCC;
+    border-bottom: 5px solid #CCCCCC;
     color: #286079;
-    padding-bottom: 0.1em;
+    padding-bottom: 3px;
     text-decoration: none;
 }
 ul.menu-l1{
-	font-size: 0.9em;
+	font-size: 1em;
 	margin-left:0;
 	float:left;
 }
 ul.menu-l2 {
-    margin: 0 0 0 1em;
+    margin: 0 0 0 0.5em;
 }
 #jobs th, td.job{
 	text-align: left;
