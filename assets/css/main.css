@@ -571,6 +571,13 @@ div#benefits{
 	text-transform: uppercase;
 	background-color: #503260;
 }
+.form-container label.upload-btn{
+	font-size:0.78em;
+}
+#path{
+	width:60%;
+	float:left;
+}
 .modal_window{
 	display: none;
 	background:#fff;
